@@ -7,12 +7,12 @@ public class quick_sort {
         for(int i = 0; i <1_000_001;i++){
             int num = (int) (Math.random()*10000-100);
             listita.insertar(num);
-            //System.out.println("#"+i+" :"+num);
+            System.out.println("#"+i+" :"+num);
         }
         
         listita.quicksort();
         System.out.println("\n Ordenados: \n");
-        //listita.recorrer();
+        listita.recorrer();
     }
 }
 class lista{
